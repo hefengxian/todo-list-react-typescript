@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Why
+
+练习 React + Typescript
+
+参考文章：[https://typeofnan.dev/your-first-react-typescript-project-todo-app/](https://typeofnan.dev/your-first-react-typescript-project-todo-app/)
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
