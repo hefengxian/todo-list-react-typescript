@@ -1,6 +1,7 @@
-import React, {useState} from 'react'
-import {TodoList} from './TodoList'
-import {AddTodoForm} from './AddTodoForm'
+import React, { useState } from 'react'
+import { TodoList } from './TodoList'
+import { AddTodoForm } from './AddTodoForm'
+import { Counter } from './Counter'
 
 const initTodos: Todo[] = [
     {
@@ -38,6 +39,7 @@ function App() {
         <>
             <TodoList todos={todos} toggleTodo={toggleTodo} />
             <AddTodoForm addTodo={addTodo} />
+            <Counter />
         </>
     )
 }
