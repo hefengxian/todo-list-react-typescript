@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { TodoList } from './TodoList'
 import { AddTodoForm } from './AddTodoForm'
 import { Counter } from './Counter'
+import { TryRecoil } from './TryRecoil'
+import TodoWithRecoil from './TodoWithRecoil'
 
 const initTodos: Todo[] = [
     {
@@ -40,6 +42,8 @@ function App() {
             <TodoList todos={todos} toggleTodo={toggleTodo} />
             <AddTodoForm addTodo={addTodo} />
             <Counter />
+            <TryRecoil />
+            <TodoWithRecoil />
         </>
     )
 }
